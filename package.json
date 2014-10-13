@@ -1,64 +1,25 @@
 {
-  "name": "tuacm-site",
-  "description": "Temple ACM Site.",
-  "version": "0.0.2",
-  "private": true,
-  "author": "Temple ACM",
+  "name": "devseries-node",
+  "version": "1.0.0",
+  "description": "devseries-node ==============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:temple-acm/site.git"
+    "url": "https://github.com/temple-acm/devseries-node.git"
   },
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/temple-acm/devseries-node/issues"
   },
-  "scripts": {
-    "start": "node server",
-    "test": "gulp test",
-    "postinstall": "bower install"
-  },
-  "dependencies": {
-    "MD5": "latest",
-    "async": "latest",
-    "bcrypt": "^0.8.0",
-    "body-parser": "latest",
-    "bower": "latest",
-    "connect-busboy": "latest",
-    "connect-mongo": "latest",
-    "cookie-parser": "latest",
-    "crypto": "latest",
-    "entities": "^1.1.1",
-    "errorhandler": "latest",
-    "express": "latest",
-    "express-session": "latest",
-    "feedparser": "^0.19.1",
-    "gulp-git": "^0.5.0",
-    "method-override": "latest",
-    "mkdirp": "latest",
-    "mongodb": "^1.4.7",
-    "morgan": "latest",
-    "nodemailer": "latest",
-    "passport": "latest",
-    "passport-local": "latest",
-    "paypal-ipn": "^1.0.1",
-    "peer": "latest",
-    "request": "^2.40.0",
-    "serve-favicon": "latest",
-    "underscore": "latest",
-    "view-helpers": "latest",
-    "winston": "latest"
-  },
+  "homepage": "https://github.com/temple-acm/devseries-node",
+  "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.8.6",
-    "gulp-concat": "^2.3.4",
-    "gulp-less": "^1.3.2",
-    "gulp-livereload": "^2.1.1",
-    "gulp-minify-css": "^0.3.7",
-    "gulp-minify-html": "^0.1.4",
-    "gulp-nodemon": "^1.0.4",
-    "gulp-rename": "^1.2.0",
-    "gulp-replace": "^0.4.0",
-    "gulp-sourcemaps": "^1.1.3",
-    "gulp-uglify": "^1.0.0"
+    "express": "^4.9.5",
+    "gulp": "^3.8.8",
+    "gulp-livereload": "^2.1.1"
   }
 }
